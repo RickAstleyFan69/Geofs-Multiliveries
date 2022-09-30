@@ -2,7 +2,7 @@
 
 //Livery-1
 var dropdown = document.createElement("li");
-dropdown.innerHTML = "Boeing 737 Max 8 (FlyDubai)"
+dropdown.innerHTML = "Boeing 737 Max 8 (Jet Airways)"
     document.getElementsByClassName("geofs-aircraft-list")[0].appendChild(dropdown);
     let dropdownSettings = document.createElement("div");
 dropdown.setAttribute("onclick", 'geofs.aircraft.instance.loadLivery("1")');
